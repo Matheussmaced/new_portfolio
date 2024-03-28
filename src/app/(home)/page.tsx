@@ -1,10 +1,10 @@
 'use client'
 
-import { GlobalStyles } from "@/styles/global";
-import { defaultTheme } from "@/themes/default";
+import { GlobalStyles } from '@/styles/global'
+import { defaultTheme } from '@/themes/default'
 
-import { ThemeProvider } from "styled-components";
-import Profile from "./components/profile";
+import { ThemeProvider } from 'styled-components'
+import Profile from './components/profile'
 
 export default function Home() {
   return (
@@ -13,5 +13,5 @@ export default function Home() {
 
       <Profile />
     </ThemeProvider>
-  );
+  )
 }
