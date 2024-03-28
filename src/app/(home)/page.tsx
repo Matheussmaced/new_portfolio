@@ -5,13 +5,19 @@ import { defaultTheme } from '@/themes/default'
 
 import { ThemeProvider } from 'styled-components'
 import Profile from './components/profile'
+import { Main } from './styles/home'
+import About from './components/about'
 
 export default function Home() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <GlobalStyles />
+      <Main>
+        <GlobalStyles />
 
-      <Profile />
+        <Profile />
+
+        <About />
+      </Main>
     </ThemeProvider>
   )
 }

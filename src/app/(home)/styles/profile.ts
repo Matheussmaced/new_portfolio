@@ -1,10 +1,12 @@
 import { GithubIcon, InstagramIcon, LinkedinIcon } from 'lucide-react'
 import styled from 'styled-components'
 
-export const Main = styled.main`
+export const MainContainerFixed = styled.div`
   position: relative;
-  margin: 4rem auto;
-  width: 62.5rem;
+`
+
+export const Main = styled.main`
+  position: fixed;
 
   line-height: 3rem;
 `

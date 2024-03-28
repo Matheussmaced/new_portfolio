@@ -7,12 +7,13 @@ import {
   Linkedin,
   Links,
   Main,
+  MainContainerFixed,
   SpanLinks,
 } from '../styles/profile'
 
 export default function Profile() {
   return (
-    <>
+    <MainContainerFixed>
       <Main>
         <h1>Matheus Gregorio</h1>
 
@@ -51,6 +52,6 @@ export default function Profile() {
           </Link>
         </Icons>
       </Main>
-    </>
+    </MainContainerFixed>
   )
 }
