@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 
 export const MainContainerProjects = styled.main`
@@ -15,7 +16,13 @@ export const MainContainerProjects = styled.main`
   h4 {
     font-size: 1.5rem;
     margin: 1rem 0 1rem;
+
+    color: ${(props) => props.theme['base-subtitle']};
   }
+`
+
+export const LinksTitle = styled(Link)`
+  text-decoration: none;
 `
 
 export const TechnologyContainer = styled.div`
@@ -32,5 +39,7 @@ export const TechnologyContainer = styled.div`
 
   span {
     margin: auto;
+    color: ${(props) => props.theme['base-subtitle']};
+    font-weight: bold;
   }
 `

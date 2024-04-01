@@ -33,6 +33,7 @@ export default function Home() {
                         mostrando detalhes como data de criação, descrição, visibilidade
                         e linguagem predominante de cada projeto."
             technology={['React', 'TypeScript', 'Styled-components']}
+            URLReposity="https://github.com/Matheussmaced/github_blog"
           />
 
           <Projects
@@ -43,6 +44,7 @@ export default function Home() {
                         jogo simples de pedra, papel e tesoura para testar o funcionamento dessa
                         biblioteca surpreendente."
             technology={['Node.js']}
+            URLReposity="https://github.com/Matheussmaced/BOT_WHATSAPP"
           />
 
           <Projects
@@ -54,6 +56,7 @@ export default function Home() {
             
             🍪 Uma característica fantástica dessa implementação é a utilização de cookies, que proporciona uma experiência personalizada aos nossos usuários. Isso permite a separação das transações de cada indivíduo, mesmo em ambientes onde múltiplos usuários acessam a API simultaneamente."
             technology={['Node.js', 'TypeScript', 'KNEX.JS', 'SQLite']}
+            URLReposity="https://github.com/Matheussmaced/API_REST_FULL"
           />
 
           <Projects
@@ -63,6 +66,7 @@ export default function Home() {
                         os usuários podem explorar e comprar uma variedade de cafés gourmet. Com uma interface intuitiva e amigável, os usuários podem navegar pelos cafés em cards, adicionar ao carrinho de compras e realizar o checkout de forma rápida e conveniente. O projeto oferece uma experiência de compra online eficiente, desde a seleção dos produtos até a confirmação da compra e aguardo da entrega. Tecnologias utilizadas incluem HTML, CSS, JavaScript e frameworks
                         como React.js, garantindo uma experiência de usuário dinâmica e interativa."
             technology={['React.js', 'TypeScript', 'Styled-componets']}
+            URLReposity="https://github.com/Matheussmaced/coffee_delivery"
           />
 
           <Technologys />

@@ -1,8 +1,13 @@
 import Image from 'next/image'
-import { MainContainerProjects, TechnologyContainer } from '../styles/projects'
+import {
+  LinksTitle,
+  MainContainerProjects,
+  TechnologyContainer,
+} from '../styles/projects'
 
 interface ProjectsProps {
   picture: string
+  URLReposity: string
   title: string
   description: string
   technology: string[]
@@ -10,6 +15,7 @@ interface ProjectsProps {
 
 export default function Projects({
   picture,
+  URLReposity,
   title,
   description,
   technology,
@@ -20,7 +26,9 @@ export default function Projects({
         <Image src={picture} alt="" width={150} height={100} quality={100} />
 
         <div>
-          <h4>{title}</h4>
+          <LinksTitle href={URLReposity} target="_blank">
+            <h4>{title}</h4>
+          </LinksTitle>
 
           <p>{description} </p>
 
