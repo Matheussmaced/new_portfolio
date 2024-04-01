@@ -3,6 +3,11 @@ import styled from 'styled-components'
 export const TitleContainer = styled.div`
   text-align: center;
   margin-top: 5rem;
+
+  h2 {
+    color: ${(props) => props.theme['green-light']};
+    font-size: 1.8rem;
+  }
 `
 
 export const Main = styled.main`

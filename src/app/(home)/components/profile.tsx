@@ -33,6 +33,11 @@ export default function Profile() {
             <SpanLinks></SpanLinks>
             <p>PROJETOS</p>
           </Links>
+
+          <Links>
+            <SpanLinks></SpanLinks>
+            <p>TECNOLOGIAS</p>
+          </Links>
         </Informs>
 
         <Icons>

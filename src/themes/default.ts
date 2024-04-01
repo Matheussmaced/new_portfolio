@@ -16,5 +16,5 @@ export const defaultTheme = {
   'base-background': '#071422',
   'base-input': '#040F1A',
 
-  'green-light': '#c5f08a',
+  'green-light': '#96FFD2',
 }

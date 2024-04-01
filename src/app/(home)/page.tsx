@@ -8,6 +8,7 @@ import Profile from './components/profile'
 import { Main, TitleContainer } from './styles/home'
 import About from './components/about'
 import Projects from './components/projects'
+import Technologys from './components/technologys'
 
 export default function Home() {
   return (
@@ -63,6 +64,8 @@ export default function Home() {
                         como React.js, garantindo uma experiência de usuário dinâmica e interativa."
             technology={['React.js', 'TypeScript', 'Styled-componets']}
           />
+
+          <Technologys />
         </div>
       </Main>
     </ThemeProvider>

@@ -18,7 +18,7 @@ export const Informs = styled.div`
 export const Links = styled.div`
   display: flex;
   align-items: center;
-  width: 10rem;
+  width: 13rem;
 
   gap: 1rem;
   cursor: pointer;
