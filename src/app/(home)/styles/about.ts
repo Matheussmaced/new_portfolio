@@ -6,6 +6,7 @@ export const Main = styled.main`
 
 export const Span = styled.span`
   color: ${(props) => props.theme['green-light']};
+  color: ${(props) => props.theme['base-subtitle']};
 `
 
 export const AbountText = styled.h3`
