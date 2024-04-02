@@ -39,7 +39,7 @@ export default function Home() {
           <Projects
             picture="/bot_whatsapp.jpeg"
             title="Bot Whatsapp"
-            description="mini projeto que desenvolvi usando uma incrível biblioteca! Este projeto consiste em
+            description="Mini projeto que desenvolvi usando uma incrível biblioteca! Este projeto consiste em
                         um Bot de mensagens para o Whatsapp. Eu criei um
                         jogo simples de pedra, papel e tesoura para testar o funcionamento dessa
                         biblioteca surpreendente."

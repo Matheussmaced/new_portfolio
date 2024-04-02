@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import styled from 'styled-components'
 
@@ -15,10 +16,18 @@ export const MainContainerProjects = styled.main`
 
   h4 {
     font-size: 1.5rem;
-    margin: 1rem 0 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: first baseline;
 
     color: ${(props) => props.theme['base-subtitle']};
   }
+`
+
+export const Images = styled(Image)`
+  border-radius: 0.5rem;
+
+  filter: drop-shadow(2px 3px 2px black);
 `
 
 export const LinksTitle = styled(Link)`

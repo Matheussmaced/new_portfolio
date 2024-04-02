@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import {
+  Images,
   LinksTitle,
   MainContainerProjects,
   TechnologyContainer,
@@ -23,7 +23,7 @@ export default function Projects({
   return (
     <>
       <MainContainerProjects>
-        <Image src={picture} alt="" width={150} height={100} quality={100} />
+        <Images src={picture} alt="" width={150} height={100} quality={100} />
 
         <div>
           <LinksTitle href={URLReposity} target="_blank">
