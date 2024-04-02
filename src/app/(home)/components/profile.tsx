@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { Link } from 'react-scroll'
 import {
   Github,
   Icons,
@@ -24,37 +24,43 @@ export default function Profile() {
         </p>
 
         <Informs>
-          <Links>
-            <SpanLinks></SpanLinks>
-            <p>SOBRE</p>
-          </Links>
+          <Link to="about" smooth={true} duration={500} offset={-50}>
+            <Links>
+              <SpanLinks></SpanLinks>
+              <p>SOBRE</p>
+            </Links>
+          </Link>
 
-          <Links>
-            <SpanLinks></SpanLinks>
-            <p>PROJETOS</p>
-          </Links>
+          <Link to="projects" smooth={true} duration={500} offset={-50}>
+            <Links>
+              <SpanLinks></SpanLinks>
+              <p>PROJETOS</p>
+            </Links>
+          </Link>
 
-          <Links>
-            <SpanLinks></SpanLinks>
-            <p>TECNOLOGIAS</p>
-          </Links>
+          <Link to="technologys" smooth={true} duration={500} offset={-50}>
+            <Links>
+              <SpanLinks></SpanLinks>
+              <p>TECNOLOGIAS</p>
+            </Links>
+          </Link>
         </Informs>
 
         <Icons>
-          <Link href="https://github.com/Matheussmaced" target="_blank">
+          <a href="https://github.com/Matheussmaced" target="_blank">
             <Github size={35} />
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="https://www.linkedin.com/in/matheus-gregorio-472607275/"
             target="_blank"
           >
             <Linkedin size={35} />
-          </Link>
+          </a>
 
-          <Link href="https://www.instagram.com/mateusmaced_/" target="_blank">
+          <a href="https://www.instagram.com/mateusmaced_/" target="_blank">
             <Instagram size={35} />
-          </Link>
+          </a>
         </Icons>
       </Main>
     </MainContainerFixed>

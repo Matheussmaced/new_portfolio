@@ -18,10 +18,10 @@ export default function Home() {
 
         <Profile />
 
-        <div>
+        <div id="about">
           <About />
 
-          <TitleContainer>
+          <TitleContainer id="projects">
             <h2>Projetos</h2>
           </TitleContainer>
 
@@ -69,7 +69,9 @@ export default function Home() {
             URLReposity="https://github.com/Matheussmaced/coffee_delivery"
           />
 
-          <Technologys />
+          <div id="technologys">
+            <Technologys />
+          </div>
         </div>
       </Main>
     </ThemeProvider>
