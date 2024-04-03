@@ -16,4 +16,9 @@ export const Main = styled.main`
 
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 600px) {
+    display: block;
+    width: 90%;
+  }
 `

@@ -16,4 +16,8 @@ export const AbountText = styled.h3`
 
   text-align: left;
   margin-bottom: 1rem;
+
+  @media screen and (max-width: 600px) {
+    margin: 2rem 0 2rem;
+  }
 `

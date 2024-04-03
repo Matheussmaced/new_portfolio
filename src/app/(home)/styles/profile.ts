@@ -9,6 +9,10 @@ export const Main = styled.main`
   position: fixed;
 
   line-height: 3rem;
+
+  @media screen and (max-width: 600px) {
+    position: relative;
+  }
 `
 
 export const Informs = styled.div`
@@ -52,6 +56,20 @@ export const Icons = styled.div`
   left: calc(50% - 31.25rem);
 
   cursor: pointer;
+
+  @media screen and (max-width: 600px) {
+    position: static;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    bottom: 0;
+    left: 0;
+
+    gap: 1rem;
+    margin-top: 2rem;
+  }
 `
 
 export const Github = styled(GithubIcon)`

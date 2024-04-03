@@ -13,7 +13,6 @@ export const GlobalStyles = createGlobalStyle`
     }
     body {
       background-color: ${(props) => props.theme.background};
-      font-family: "Oswald", sans-serif;
     }
   }
 `

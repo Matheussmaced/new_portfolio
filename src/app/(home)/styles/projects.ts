@@ -21,6 +21,15 @@ export const MainContainerProjects = styled.main`
     align-items: first baseline;
 
     color: ${(props) => props.theme['base-subtitle']};
+
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    display: block;
+    text-align: center;
   }
 `
 
@@ -28,6 +37,10 @@ export const Images = styled(Image)`
   border-radius: 0.5rem;
 
   filter: drop-shadow(2px 3px 2px black);
+
+  @media screen and (max-width: 600px) {
+    margin-bottom: 1.5rem;
+  }
 `
 
 export const LinksTitle = styled(Link)`
